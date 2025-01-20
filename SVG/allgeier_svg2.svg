@@ -32,17 +32,26 @@
         <!-- Bars and Labels -->
         <g>
             <!-- Tahiti -->
-            <rect x="150" y="246" width="100" height="404" fill="url(#blueGradient)" rx="10" ry="10"/>
+            <rect x="150" y="246" width="100" height="404" fill="url(#blueGradient)" rx="10" ry="10">
+                <animate attributeName="height" from="0" to="404" begin="0.5s" dur="1s" fill="freeze" />
+                <animate attributeName="y" from="650" to="246" begin="0.5s" dur="1s" fill="freeze" />
+            </rect>
             <text x="200" y="240" text-anchor="middle" font-size="16" fill="black">Tahiti</text>
             <text x="200" y="220" text-anchor="middle" font-size="14" fill="black">404 sq mi</text>
             
             <!-- Tongatapu -->
-            <rect x="350" y="550" width="100" height="100" fill="url(#greenGradient)" rx="10" ry="10"/>
+            <rect x="350" y="550" width="100" height="100" fill="url(#greenGradient)" rx="10" ry="10">
+                <animate attributeName="height" from="0" to="100" begin="0.6s" dur="1s" fill="freeze" />
+                <animate attributeName="y" from="650" to="550" begin="0.6s" dur="1s" fill="freeze" />
+            </rect>
             <text x="400" y="545" text-anchor="middle" font-size="16" fill="black">Tongatapu</text>
             <text x="400" y="525" text-anchor="middle" font-size="14" fill="black">100 sq mi</text>
             
             <!-- Raiatea -->
-            <rect x="550" y="585" width="100" height="65" fill="url(#redGradient)" rx="10" ry="10"/>
+            <rect x="550" y="585" width="100" height="65" fill="url(#redGradient)" rx="10" ry="10">
+                <animate attributeName="height" from="0" to="65" begin="0.7s" dur="1s" fill="freeze" />
+                <animate attributeName="y" from="650" to="585" begin="0.7s" dur="1s" fill="freeze" />
+            </rect>
             <text x="600" y="580" text-anchor="middle" font-size="16" fill="black">Raiatea</text>
             <text x="600" y="560" text-anchor="middle" font-size="14" fill="black">65 sq mi</text>
         </g>
