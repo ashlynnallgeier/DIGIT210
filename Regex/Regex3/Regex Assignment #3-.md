@@ -9,7 +9,7 @@ I then found all blocks of text using `\n\n`. I replaced them all with `</p>\n<p
 
 Next, I found the chapter titles using `<p>([IVXLCDM]+)\.\s+(.*?)</p>` and then replaced it with `<title>\1. \2</title>`.
 
-To find all the text within the chapters, I used `(\s+)([IVX]+\.)(\s\s)(.+)$` to find it, and then replaced it with `\n<title>\2 \4</title>` so that all the text in each chapter, including the titles, were wrapped in a chapter element.
+To find all the text within the chapters, I used `<title>([IVXLC]+\..+?)</title>$` to find it, and then replaced it with `</chapter>\n\n<chapter><title>\1</title>` so that all the text in each chapter, including the titles, were wrapped in a chapter element.
 
 The next step was to remove the extra closing chapter tag from the beginning of the first chapter. I used `<title>.+</title>\n<p>` to find it and replaced it with `</chapter>\n<chapter>\n\0`.
 
