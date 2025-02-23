@@ -1,9 +1,0 @@
-start=xml
-xml=element xml {header, movie+}
-header=element header {text}
-movie=element movie {title, date, country, runTime}
-    title=element title {text}
-    date=element date {xsd:gYear | "N/A"}
-    country=element country {text}
-    runTime=element runTime {(unit, xsd:integer) | "N/A"}
-        unit=attribute unit {"min" | text}
