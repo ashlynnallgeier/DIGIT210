@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+    <!-- X and Y Axes -->
+    <line x1="50" y1="350" x2="450" y2="350" stroke="black" stroke-width="2"/>
+    <line x1="50" y1="350" x2="50" y2="50" stroke="black" stroke-width="2"/>
+    
+    <!-- Graph lines (data points connected) -->
+    <polyline points="50,300 100,270 150,250 200,220 250,180 300,150 350,120 400,100"
+        fill="none" stroke="blue" stroke-width="3"/>
+    
+    <!-- Data Points -->
+    <circle cx="50" cy="300" r="5" fill="red"/>
+    <circle cx="100" cy="270" r="5" fill="red"/>
+    <circle cx="150" cy="250" r="5" fill="red"/>
+    <circle cx="200" cy="220" r="5" fill="red"/>
+    <circle cx="250" cy="180" r="5" fill="red"/>
+    <circle cx="300" cy="150" r="5" fill="red"/>
+    <circle cx="350" cy="120" r="5" fill="red"/>
+    <circle cx="400" cy="100" r="5" fill="red"/>
+    
+    <!-- Data Labels -->
+    <text x="50" y="310" font-size="12" text-anchor="middle" fill="black">10</text>
+    <text x="100" y="280" font-size="12" text-anchor="middle" fill="black">20</text>
+    <text x="150" y="260" font-size="12" text-anchor="middle" fill="black">30</text>
+    <text x="200" y="230" font-size="12" text-anchor="middle" fill="black">40</text>
+    <text x="250" y="200" font-size="12" text-anchor="middle" fill="black">50</text>
+    <text x="300" y="170" font-size="12" text-anchor="middle" fill="black">60</text>
+    <text x="350" y="140" font-size="12" text-anchor="middle" fill="black">70</text>
+    <text x="400" y="110" font-size="12" text-anchor="middle" fill="black">80</text>
+    
+    <!-- Title -->
+    <text x="50%" y="30" font-size="16" text-anchor="middle" fill="black">Line Graph Example</text>
+    
+    <!-- X Axis Labels -->
+    <text x="50" y="370" font-size="12" text-anchor="middle" fill="black">0</text>
+    <text x="100" y="370" font-size="12" text-anchor="middle" fill="black">1</text>
+    <text x="150" y="370" font-size="12" text-anchor="middle" fill="black">2</text>
+    <text x="200" y="370" font-size="12" text-anchor="middle" fill="black">3</text>
+    <text x="250" y="370" font-size="12" text-anchor="middle" fill="black">4</text>
+    <text x="300" y="370" font-size="12" text-anchor="middle" fill="black">5</text>
+    <text x="350" y="370" font-size="12" text-anchor="middle" fill="black">6</text>
+    <text x="400" y="370" font-size="12" text-anchor="middle" fill="black">7</text>
+    
+    <!-- Y Axis Labels -->
+    <text x="30" y="300" font-size="12" text-anchor="middle" fill="black">10</text>
+    <text x="30" y="270" font-size="12" text-anchor="middle" fill="black">20</text>
+    <text x="30" y="240" font-size="12" text-anchor="middle" fill="black">30</text>
+    <text x="30" y="210" font-size="12" text-anchor="middle" fill="black">40</text>
+    <text x="30" y="180" font-size="12" text-anchor="middle" fill="black">50</text>
+    <text x="30" y="150" font-size="12" text-anchor="middle" fill="black">60</text>
+    <text x="30" y="120" font-size="12" text-anchor="middle" fill="black">70</text>
+    <text x="30" y="90" font-size="12" text-anchor="middle" fill="black">80</text>
+</svg>
